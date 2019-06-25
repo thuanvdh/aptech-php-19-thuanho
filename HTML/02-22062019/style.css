@@ -1,0 +1,19 @@
+.mau-do {
+    color:red;
+    font-size: 20px;
+}
+.chu-o-giua {
+    text-align: center;
+    color: blue;
+    background-color: rgb(34, 24, 11);
+}
+.chu-ben-phai {
+    text-align: right;
+}
+.mau-hong {
+    color: pink;
+}
+.mau-vang {
+    color: yellow;
+    background-color: rgb(28, 6, 49);
+}
