@@ -8,3 +8,33 @@
     text-indent: 50px;
     font-size: 20px;
 }
+
+#div1 {
+    height: 30%;
+    border: 10px solid blue;
+}
+
+#div2 {
+    height: 20%;
+    border: 10px solid green;
+}
+
+#div3 {
+    height: 10%;
+    border: 10px solid white;
+}
+
+#div4 {
+    height: 10%;
+    border: 10px solid red;
+}
+
+#div5 {
+    height: 20%;
+    border: 10px solid rebeccapurple;
+}
+
+#div6 {
+    height: 10%;
+    border: 10px solid white;
+}
