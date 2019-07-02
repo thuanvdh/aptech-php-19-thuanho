@@ -1,0 +1,12 @@
+.body{
+    height: 100vh;
+}
+li:hover{
+    border-bottom: 3px solid gray;
+}
+.border-bottom-custom {
+    border-bottom: 3px solid white;
+}
+.center {
+    text-align: center;
+}
