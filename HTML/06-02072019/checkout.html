@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-center py-4">
+            <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" height="72px" width="72px">
+            <h2 class="text-dark py-2">Checkout form</h2>
+            <p class="px-5">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <h3>Billing address</h3>
+                <div>
+                    <label for="firstname">First name</label>
+                    <input type="text" class="form-control" placeholder="">
+                </div>
+                <div>
+                    <label for="lastname">Last name</label>
+                    <input type="text" class="form-control" placeholder="">
+                </div>
+                <div>
+                    <label for="username">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Email
+                        <span class="text-muted">(Optional)</span>
+                    </label>
+                    <input type="text" class="form-control" placeholder="you@example.com">
+                </div>
+                <div>
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" placeholder="1234 Main St">
+                </div>
+                <div>
+                    <label for="address">Address 2 
+                        <span class="text-muted">(Optional)</span>
+                    </label>
+                    <input type="text" class="form-control" placeholder="Apartment or suite">
+                </div>
+                <div>
+                    <label for="country">Country</label>
+                    <select class="custom-select d-block w-100">
+                        <option value="">Choose...</option>
+                        <option>Viet Nam</option>
+                        <option>United States</option>
+                        <option>Thailand</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="state">State</label>
+                    <select class="custom-select d-block w-100">
+                        <option value="">Choose...</option>
+                        <option>California</option>
+                        <option>Luisana</option>
+                        <option>Washington DC</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="zip">Zip</label>
+                    <input type="text" class="form-control" placeholder="">
+                </div>
+                <hr>
+                <div>
+                    <input type="checkbox">Shipping address is the same as my billing address
+                </div>
+                <div>
+                    <input type="checkbox">Save this information for next time
+                </div>
+                <hr>
+                <div>
+                    <h3>Payment</h3>
+                    <input type="checkbox">Credit card
+                    <br>
+                    <input type="checkbox">Debit card
+                    <br>
+                    <input type="checkbox">Paypal
+                </div>
+                <div>
+                    <label for="nameoncard">Name on card</label>
+                    <input type="text" class="form-control" placeholder="">
+                    <span class="text-muted">Full name as displayed on card</span>
+                </div>
+                <div>
+                    <label for="creditcardnumber">Credit card number</label>
+                    <input type="text" class="form-control" placeholder="">
+                </div>
+                <div>
+                        <label for="expiration">Expiration</label>
+                        <input type="text" class="form-control" placeholder="">
+                </div>
+                <div>
+                        <label for="cvv">CVV</label>
+                        <input type="text" class="form-control" placeholder="">
+                </div>
+                <hr>
+                <div>
+                    <button class="btn btn-primary btn-block">Continue to checkout</button>
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row mt-5 d-flex justify-content-center">
+            <div>
+            <p>© 2017-2019 Company Name</p>
+            </div>
+            <div class="mb-5">
+            <ul class="list-unstyled d-flex align-items-center">
+                <li class="mx-2">
+                    <a href="https://getbootstrap.com/docs/4.3/examples/checkout/#">Privacy</a>
+                </li>
+                <li class="mx-2">
+                    <a href="https://getbootstrap.com/docs/4.3/examples/checkout/#">Terms</a>
+                </li>
+                <li class="mx-2">
+                    <a href="https://getbootstrap.com/docs/4.3/examples/checkout/#">Support</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

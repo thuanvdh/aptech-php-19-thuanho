@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container-fluid bg-dark First-container">
+        <div class="row h-100">
+            <div class="col-8 h-100">
+                    <ul class="h-100 text-white d-flex list-unstyled align-items-center">
+                        <li class="mx-2">Fixed navbar</li>
+                        <li class="mx-2">Home</li>
+                        <li class="mx-2">Link</li>
+                        <li class="mx-2 text-muted">Disable</li>
+                    </ul>
+            </div>
+            <div class="col-4 d-flex align-items-center justify-content-end">
+                <input type="search" class="form-control" placeholder="Search" required autofocus>
+                <button class="btn btn-success">Search</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h1 text-dark>Sticky footer with fixed navbar</h1>
+        <p>Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+        <p>Back to <a href="https://getbootstrap.com/docs/4.3/examples/sticky-footer/">the default sticky footer</a>minus the navbar.</p>
+    </div>
+    <div class="container-fluid bg-secondary fixed-bottom">
+            <div class="row">
+                <div class="col-6 offset-3 d-flex align-items-center">
+                    <p class="text-white">Place sticky footer content here.</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
