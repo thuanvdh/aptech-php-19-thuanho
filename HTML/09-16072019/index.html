@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1 id="loi-chao">Hello World</h1>
+    <button onclick="quetNha();">Quet Nha</button>
+    <button onclick="doiChu();">Doi Chu</button>
+    <button onclick="doiMau();">Doi Mau</button>
+
+    <script>
+        var elementLoiChao=document.getElementById('loi-chao');
+
+
+        function doiChu(){
+            document.getElementById('loi-chao').innerHTML = "APTECH PHP 19";
+        }
+        function doiMau(){
+            document.getElementById('loi-chao').style.color = "red"
+        }
+        function quetNha() {
+            chaoMoiNGuoi();
+            console.log('Quet nha');
+        }
+        function chaoMoiNGuoi() {
+            console.log('Chao moi nguoi');
+        }
+        // console.log(5+6*5);
+        // console.log("nam" + " nu");
+        // console.log(5 + 4 +"6" );        
+        // var a = "Thuan"
+        // console.log(a)
+        // console.log(a + ' Ho')
+
+        // document.getElementById('loi-chao').innerHTML = 'Hiiiiiiiiiiiiii World';
+    </script>
+</body>
+</html>

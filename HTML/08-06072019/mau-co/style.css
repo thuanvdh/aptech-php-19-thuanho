@@ -1,0 +1,36 @@
+.Green {
+    height: 100px;
+    width: 33%;
+    background-color: green;
+}
+.White {
+    height: 100px;
+    width: 33%;
+    background-color: white;
+}
+.Red {
+    height: 100px;
+    width: 33%;
+    background-color: red;
+}
+
+.Displayflex {
+    display: flex;
+}
+
+body {
+    background-color: wheat;
+}
+
+@media (max-width: 768px){
+    .Green {
+        background-color: red;
+    }
+    .White {
+        background-color: white;
+    }
+    .Red {
+        background-color: green;
+    }
+    
+}

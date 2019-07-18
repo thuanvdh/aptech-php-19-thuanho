@@ -1,0 +1,28 @@
+.Green {
+    background-color: green;
+    height: 200px;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.Blue {
+    background-color: blue;
+    height: 200px;
+    width: 50%;
+}
+.Displayflex {
+    display: flex;
+}
+    
+@media (max-width: 768px) {
+    .Displayflex {
+        display: block;
+    }
+    .Blue {
+        width: 100%;
+    }
+    .Green {
+        width: 100%;
+    }
+    
+}
