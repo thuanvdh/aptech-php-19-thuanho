@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>           
 </head>
 <body>
     <!-- <button onclick="batden();">Bat Den</button> -->
-    <img id="anh" src="./pic_bulboff.gif">
+    <!-- <img id="anh" src="./pic_bulboff.gif"> -->
     <!-- <button onclick="tatden();">Tat Den</button> -->
-    <button onclick="doiAnh();">Bat Tat Den</button>
-    <script src="./script.js"></script>
+    <!-- <button onclick="doiAnh();">Bat Tat Den</button> -->
+    <!-- <script src="./script.js"></script> -->
+    <img src="./pic_bulboff.gif" id="img">
+    <script>
+            $(document).ready(function(){
+              $("#batden").click(function(){
+                $("img").attr("src","pic_bulbon.gif");
+              });
+              $("#tatden").click(function(){
+                $("img").attr("src","pic_bulboff.gif");
+              });
+            });
+            </script>
+    <button id="batden">Bat</button>
+    <button id="tatden">Tat</button>
 </body>
 </html>
