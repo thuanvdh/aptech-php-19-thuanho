@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <p id="dulieu"></p>
+    <!-- <script>
+        function loadDuLieu(){ 
+            var http = new XMLHttpRequest();
+            http.onreadystatechange = function() {
+            console.log(http.readyState);
+            console.log(http.status);
+            console.log(http.responseText);
+            if (http.readyState == 4 && http.status == 200) {
+              document.getElementById("dulieu").innerHTML =
+              http.responseText;
+            }
+          };
+        //   http.open("GET", "https://namcoi.com/projects/users-crud-laravel/public/api/users", true);
+        http.open("GET", "ajax_info.txt", true);
+        http.send();
+        }
+        </script>
+         -->
+        <script>
+            $(document).ready(function(){
+              $("button").click(function(){
+                $("#dulieu").load("ajax_info.txt");
+              });
+            });
+        </script>
+        <button>Load Du Lieu</button>
+            
+</body>
+</html>

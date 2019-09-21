@@ -1,0 +1,52 @@
+#anh {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-image: url('./hinh-nen-4k-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+#anh1 {
+    width: 100%;
+    height: 300px;
+    background-image: url('./ip7pl.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#anh2 {
+    width: 100%;
+    height: 300px;
+    background-image: url('./code.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#anh3 {
+    width: 100%;
+    height: 300px;
+    background-image: url('./tre.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#anh4 {
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+    background-image: url('./anhnen2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
